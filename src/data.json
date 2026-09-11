@@ -1,0 +1,65 @@
+{
+  "logo": "/logo.png",
+  "companyName": "",
+  "hero": {
+    "headline": "Ejecución impecable para tus convenciones",
+    "subheadline": "Llevamos la logística corporativa B2B al siguiente nivel. Control absoluto en cada detalle para garantizar el éxito de tus eventos de alto perfil.",
+    "ctaText": "Hablemos de tu próximo evento",
+    "ctaLink": "#contacto",
+    "image": "hero.png"
+  },
+  "services": {
+    "title": "El Backstage",
+    "subtitle": "Operatividad y precisión en cada paso de tu convención",
+    "items": [
+      {
+        "id": "registro",
+        "title": "Control de Registro",
+        "description": "Sistemas de acreditación fluidos y seguros. Gestionamos listas de invitados corporativos con tecnología de punta para evitar cuellos de botella.",
+        "icon": "clipboard-check"
+      },
+      {
+        "id": "hospedaje",
+        "title": "Gestión de Hospedaje",
+        "description": "Coordinación centralizada de rooming lists, traslados VIP y requerimientos especiales en hoteles de primer nivel para ejecutivos.",
+        "icon": "building"
+      },
+      {
+        "id": "minutas",
+        "title": "Minutas Operativas",
+        "description": "Planificación milimétrica con cronogramas estrictos, manejo de proveedores en sitio y resolución inmediata de incidencias.",
+        "icon": "clock"
+      }
+    ]
+  },
+  "experiences": {
+    "title": "El Escenario",
+    "subtitle": "Momentos clave de ejecución perfecta en nuestras convenciones",
+    "reels": [
+      {
+        "id": "reel-1",
+        "iframeSrc": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F10153231379946729%2F&show_text=false&width=267&t=0&autoplay=true&mute=true",
+        "title": "Convención Anual Finanzas 2025"
+      },
+      {
+        "id": "reel-2",
+        "iframeSrc": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F10153231379946729%2F&show_text=false&width=267&t=0&autoplay=true&mute=true",
+        "title": "Cumbre de Liderazgo B2B"
+      },
+      {
+        "id": "reel-3",
+        "iframeSrc": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F10153231379946729%2F&show_text=false&width=267&t=0&autoplay=true&mute=true",
+        "title": "Lanzamiento Corporativo"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto Ejecutivo",
+    "subtitle": "Agenda una sesión estratégica con nuestros directores de logística.",
+    "whatsappNumber": "+5543520266",
+    "whatsappText": "Contactar por WhatsApp",
+    "email": "ventas@cligna.com",
+    "emailText": "Escribir al correo corporativo",
+    "address": "Por ahora vacío"
+  }
+}
