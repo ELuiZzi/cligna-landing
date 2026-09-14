@@ -70,7 +70,7 @@ const Services = () => {
                   <span className="inline-block px-3 py-1 bg-brand-electric/90 backdrop-blur-sm rounded-full text-xs font-semibold uppercase tracking-wider mb-2">
                     En sitio
                   </span>
-                  <h4 className="text-xl font-bold font-montserrat drop-shadow-md text-white">
+                  <h4 className="text-xl font-bold font-montserrat drop-shadow-md !text-white">
                     Coordinación & Logística en Vivo
                   </h4>
                   <p className="text-slate-200 text-sm mt-1 drop-shadow">

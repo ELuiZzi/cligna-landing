@@ -11,8 +11,8 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto text-center space-y-12 pointer-events-auto">
         <FadeInUp>
           <div className="space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white">{title}</h2>
-            <p className="text-slate-300 text-lg max-w-2xl mx-auto font-light">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight !text-white drop-shadow-md">{title}</h2>
+            <p className="text-slate-200 text-lg max-w-2xl mx-auto font-light">
               {subtitle}
             </p>
           </div>

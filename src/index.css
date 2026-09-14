@@ -11,10 +11,12 @@
   --font-inter: 'Inter', sans-serif;
 }
 
-body {
-  @apply font-inter text-brand-slate bg-brand-light;
-}
+@layer base {
+  body {
+    @apply font-inter text-brand-slate bg-brand-light;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  @apply font-montserrat text-brand-navy;
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat text-brand-navy;
+  }
 }
