@@ -1,22 +1,15 @@
 import React from 'react';
 import data from '../data.json';
+import FadeInUp from './FadeInUp';
 
 const Hero = () => {
   const { headline, subheadline, ctaText, ctaLink } = data.hero;
 
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center bg-white px-6 py-20 overflow-hidden">
-      {data.hero.image && (
-        <>
-          <div 
-            className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${data.hero.image})` }}
-          />
-          <div className="absolute inset-0 z-0 bg-gradient-to-b from-white/50 via-white/80 to-white" />
-        </>
-      )}
+    <section className="relative min-h-[80vh] flex items-center justify-center px-6 py-20 overflow-hidden pointer-events-none">
       
-      <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
+      <FadeInUp>
+        <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8 pointer-events-auto bg-white/40 p-12 rounded-3xl backdrop-blur-sm shadow-2xl border border-white/50">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-brand-navy leading-tight drop-shadow-sm">
           {headline}
         </h1>
@@ -32,6 +25,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
+      </FadeInUp>
     </section>
   );
 };
